@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArtStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cdca836c07066788cbfe3c065ce17f2f719df8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34d1f524a91d57f7e8f7feaa1c8e75f892cf7dbf")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArtStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArtStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

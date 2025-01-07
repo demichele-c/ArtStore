@@ -1,9 +1,32 @@
 @model ArtStore.Models.Product
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
-<h2>@Model.Name</h2>
-<p>@Model.Description</p>
-<p>Price: @Model.Price</p>
-<img src="@Model.ImagePath" alt="@Model.Name" style="max-width:300px;" />
-<br />
-<a asp-controller="Product" asp-action="Index">Back to List</a>
+<div class="container">
+    <h1>@Model.Name</h1>
+    <img src="@Model.ImagePath" class="img-fluid" alt="@Model.Name" />
+    <p>Price: $@Model.Price</p>
+
+    <form method="post" action="/Checkout/Preview">
+        <div class="form-group">
+            <label for="frameStyle">Choose a frame style:</label>
+            <select name="frameStyle" id="frameStyle" class="form-control">
+                @foreach (var style in Model.FrameStyles)
+                {
+                    <option value="@style">@style</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="frameWidth">Choose a frame width (in inches):</label>
+            <select name="frameWidth" id="frameWidth" class="form-control">
+                @foreach (var width in Model.FrameWidths)
+                {
+                    <option value="@width">@width inch</option>
+                }
+            </select>
+        </div>
+
+        <input type="hidden" name="productId" value="@Model.Id" />
+        <button type="submit" class="btn btn-primary">Preview and Checkout</button>
+    </form>
+</div>

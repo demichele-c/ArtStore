@@ -1,35 +1,30 @@
 using Microsoft.AspNetCore.Mvc;
-using ArtStore.Data;
 using ArtStore.Models;
-using System.Linq;
 
 namespace ArtStore.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly ApplicationDbContext _context;
-
-        public ProductController(ApplicationDbContext context)
+        // Dummy product data
+        private readonly List<Product> _products = new List<Product>
         {
-            _context = context;
-        }
+            new Product { Id = 1, Name = "Starry Night", Price = 299.99m, ImagePath = "/images/starry-night.jpg" },
+            new Product { Id = 2, Name = "Mona Lisa", Price = 199.99m, ImagePath = "/images/mona-lisa.jpg" }
+        };
 
+        // Displays product listing
         public IActionResult Index()
         {
-            var products = _context.Products.ToList();
-            return View(products);
+            return View(_products);
         }
 
+        // Displays details of a specific product
         public IActionResult Details(int id)
         {
-            var product = _context.Products.FirstOrDefault(p => p.Id == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
+            var product = _products.FirstOrDefault(p => p.Id == id);
+            if (product == null) return NotFound();
+
             return View(product);
         }
-
-        // Additional CRUD actions (Create, Edit, Delete) can be added here
     }
 }

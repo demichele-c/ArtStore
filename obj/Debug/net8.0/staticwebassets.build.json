@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Yk/+y77XDOkoiLHr5xGJRLRDsJ9hkTrXXDlOZ6eAIM4=",
+  "Hash": "6pQIm5yLDLGZcK/BBMWCC4HEd3hOY9y0qRobjV2YsvI=",
   "Source": "ArtStore",
   "BasePath": "_content/ArtStore",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "106xfjb4f9",
+      "Integrity": "XxicnCYUHuKD2aTEvqasfM213vvEssySxQq516m5A5s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -101,6 +101,48 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\hero-banner.jpg",
+      "SourceId": "ArtStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\demic\\ArtStore\\wwwroot\\",
+      "BasePath": "_content/ArtStore",
+      "RelativePath": "images/hero-banner#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5rmwpvtokp",
+      "Integrity": "MaA0t4ccXnVRFYaa+ZoJuwFi6iS/3DyoRrZfkSOxKx0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero-banner.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\mona-lisa.jpg",
+      "SourceId": "ArtStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\demic\\ArtStore\\wwwroot\\",
+      "BasePath": "_content/ArtStore",
+      "RelativePath": "images/mona-lisa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "otnmddgqnx",
+      "Integrity": "HCPGWsRrYClbzQVhdPazMzdk43vvO2hG+iQ/vrOsGKg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mona-lisa.jpg"
+    },
+    {
       "Identity": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\placeholder.png",
       "SourceId": "ArtStore",
       "SourceType": "Discovered",
@@ -120,6 +162,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\placeholder.png"
+    },
+    {
+      "Identity": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\starry-night.jpg",
+      "SourceId": "ArtStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\demic\\ArtStore\\wwwroot\\",
+      "BasePath": "_content/ArtStore",
+      "RelativePath": "images/starry-night#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7yjbcz46yi",
+      "Integrity": "v/GLlUg1WMdUO9wFnNyGofdQqVKxcLywMzaKjnBN88g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\starry-night.jpg"
     },
     {
       "Identity": "C:\\Users\\demic\\ArtStore\\wwwroot\\js\\site.js",
@@ -1569,7 +1632,7 @@
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.106xfjb4f9.css",
       "AssetFile": "C:\\Users\\demic\\ArtStore\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1579,7 +1642,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1622"
         },
         {
           "Name": "Content-Type",
@@ -1587,11 +1650,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"XxicnCYUHuKD2aTEvqasfM213vvEssySxQq516m5A5s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 16:15:22 GMT"
+          "Value": "Mon, 06 Jan 2025 17:53:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1601,7 +1664,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "106xfjb4f9"
         },
         {
           "Name": "label",
@@ -1609,7 +1672,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-XxicnCYUHuKD2aTEvqasfM213vvEssySxQq516m5A5s="
         }
       ]
     },
@@ -1624,7 +1687,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1622"
         },
         {
           "Name": "Content-Type",
@@ -1632,11 +1695,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"XxicnCYUHuKD2aTEvqasfM213vvEssySxQq516m5A5s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 16:15:22 GMT"
+          "Value": "Mon, 06 Jan 2025 17:53:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1646,7 +1709,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-XxicnCYUHuKD2aTEvqasfM213vvEssySxQq516m5A5s="
         }
       ]
     },
@@ -1733,6 +1796,170 @@
       ]
     },
     {
+      "Route": "images/hero-banner.5rmwpvtokp.jpg",
+      "AssetFile": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\hero-banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "404228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MaA0t4ccXnVRFYaa+ZoJuwFi6iS/3DyoRrZfkSOxKx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 17:38:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5rmwpvtokp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hero-banner.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MaA0t4ccXnVRFYaa+ZoJuwFi6iS/3DyoRrZfkSOxKx0="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero-banner.jpg",
+      "AssetFile": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\hero-banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "404228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MaA0t4ccXnVRFYaa+ZoJuwFi6iS/3DyoRrZfkSOxKx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 17:38:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MaA0t4ccXnVRFYaa+ZoJuwFi6iS/3DyoRrZfkSOxKx0="
+        }
+      ]
+    },
+    {
+      "Route": "images/mona-lisa.jpg",
+      "AssetFile": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\mona-lisa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1032601"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HCPGWsRrYClbzQVhdPazMzdk43vvO2hG+iQ/vrOsGKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 17:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HCPGWsRrYClbzQVhdPazMzdk43vvO2hG+iQ/vrOsGKg="
+        }
+      ]
+    },
+    {
+      "Route": "images/mona-lisa.otnmddgqnx.jpg",
+      "AssetFile": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\mona-lisa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1032601"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HCPGWsRrYClbzQVhdPazMzdk43vvO2hG+iQ/vrOsGKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 17:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "otnmddgqnx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/mona-lisa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HCPGWsRrYClbzQVhdPazMzdk43vvO2hG+iQ/vrOsGKg="
+        }
+      ]
+    },
+    {
       "Route": "images/placeholder.5ipweew5fc.png",
       "AssetFile": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\placeholder.png",
       "Selectors": [],
@@ -1811,6 +2038,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/starry-night.7yjbcz46yi.jpg",
+      "AssetFile": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\starry-night.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "572961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/GLlUg1WMdUO9wFnNyGofdQqVKxcLywMzaKjnBN88g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 17:35:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7yjbcz46yi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/starry-night.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/GLlUg1WMdUO9wFnNyGofdQqVKxcLywMzaKjnBN88g="
+        }
+      ]
+    },
+    {
+      "Route": "images/starry-night.jpg",
+      "AssetFile": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\starry-night.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "572961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/GLlUg1WMdUO9wFnNyGofdQqVKxcLywMzaKjnBN88g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 17:35:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/GLlUg1WMdUO9wFnNyGofdQqVKxcLywMzaKjnBN88g="
         }
       ]
     },

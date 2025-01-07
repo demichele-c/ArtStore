@@ -13,8 +13,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\hero-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\mona-lisa.jpg",
+      "PackagePath": "staticwebassets\\images\\mona-lisa.jpg"
+    },
+    {
       "Id": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\placeholder.png",
       "PackagePath": "staticwebassets\\images\\placeholder.png"
+    },
+    {
+      "Id": "C:\\Users\\demic\\ArtStore\\wwwroot\\images\\starry-night.jpg",
+      "PackagePath": "staticwebassets\\images\\starry-night.jpg"
     },
     {
       "Id": "C:\\Users\\demic\\ArtStore\\wwwroot\\js\\site.js",
